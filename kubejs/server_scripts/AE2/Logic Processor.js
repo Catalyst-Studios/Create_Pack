@@ -26,7 +26,7 @@ ServerEvents.recipes((Catalyst) => {
                 ]),  
             ]
         )
-        .transitionalItem("create:large_cogwheel")
+        .transitionalItem("createappliedkinetics:incomplete_logic_processor")
         .loops(1); // set the transitional item and the loops (amount of repetitions)
     // THIS LINE IS ALSO IMPORTANT!
     // IT MUST BE THE LAST LINE IN THE EVENT HANDLER
