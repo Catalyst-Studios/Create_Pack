@@ -3,6 +3,7 @@ This script is property of Catalyst Studios for use in the modpack Little Bit La
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
+//Iron Backpack
 ServerEvents.recipes(catalyst => {
 catalyst.shaped(
 
@@ -51,6 +52,16 @@ catalyst.shaped(
         B: 'create:precision_mechanism',
         C: 'sophisticatedbackpacks:gold_backpack'
     }
+)
+
+
+//Netherite Backpack
+catalyst.smithing(
+    'sophisticatedbackpacks:netherite_backpack',
+    'minecraft:netherite_upgrade_smithing_template',
+    'sophisticatedbackpacks:diamond_backpack',
+    'kubejs:netherite_sheet'
+    
 )
 })
 /* 

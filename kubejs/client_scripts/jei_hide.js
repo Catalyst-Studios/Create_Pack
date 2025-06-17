@@ -6,5 +6,4 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove("sophisticatedbackpacks:stack_upgrade_omega_tier")
     catalyst.remove("sophisticatedbackpacks:inception_upgrade")
     catalyst.remove("sophisticatedstorage:stack_upgrade_omega_tier")
-    catalyst.remove("sophisticatedbackpacks:iron_backpack")
 })

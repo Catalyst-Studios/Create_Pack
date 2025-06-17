@@ -19,6 +19,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "sophisticatedbackpacks:iron_backpack"})
     catalyst.remove({output: "sophisticatedbackpacks:gold_backpack"})
     catalyst.remove({output: "sophisticatedbackpacks:diamond_backpack"})
+    catalyst.remove({output: "sophisticatedbackpacks:netherite_backpack"})
 
 })
 
