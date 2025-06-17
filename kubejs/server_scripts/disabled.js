@@ -25,6 +25,9 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ae2:printed_calculation_processor"})
     catalyst.remove({output: "ae2:printed_engineering_processor"})
     catalyst.remove({output: "ae2:printed_silicon"})
+    catalyst.remove({output: "ae2:engineering_processor"})
+    catalyst.remove({output: "ae2:calculation_processor"})
+    catalyst.remove({output: "ae2:logic_processor"})
 
 })
 
