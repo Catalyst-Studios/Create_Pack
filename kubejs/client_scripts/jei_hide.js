@@ -1,0 +1,10 @@
+RecipeViewerEvents.removeEntries('item', catalyst => {
+    catalyst.remove('mekanism:dimensional_stabilizer')
+    catalyst.remove('mekanism:upgrade_anchor')
+    catalyst.remove('ae2:network/blocks/spatial_anchor')
+    catalyst.remove('reliquary:alkahestry_tome')
+    catalyst.remove("sophisticatedbackpacks:stack_upgrade_omega_tier")
+    catalyst.remove("sophisticatedbackpacks:inception_upgrade")
+    catalyst.remove("sophisticatedstorage:stack_upgrade_omega_tier")
+    catalyst.remove("sophisticatedbackpacks:iron_backpack")
+})
