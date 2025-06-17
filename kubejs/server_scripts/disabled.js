@@ -12,6 +12,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove("sophisticatedbackpacks:inception_upgrade")
     catalyst.remove("sophisticatedstorage:stack_upgrade_omega_tier")
     catalyst.remove({output: "sophisticatedstorage:stack_upgrade_omega_tier"})
+    catalyst.remove({output: "extendedae:circuit_cutter"})
 })
 
 
@@ -20,6 +21,10 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "sophisticatedbackpacks:gold_backpack"})
     catalyst.remove({output: "sophisticatedbackpacks:diamond_backpack"})
     catalyst.remove({output: "sophisticatedbackpacks:netherite_backpack"})
+    catalyst.remove({output: "ae2:printed_logic_processor"})
+    catalyst.remove({output: "ae2:printed_calculation_processor"})
+    catalyst.remove({output: "ae2:printed_engineering_processor"})
+    catalyst.remove({output: "ae2:printed_silicon"})
 
 })
 
