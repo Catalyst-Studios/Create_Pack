@@ -30,6 +30,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ae2:logic_processor"})
     catalyst.remove({output: "ae2:terminal"})
     catalyst.remove({output: "ae2:crafting_terminal"})
+    catalyst.remove({output: "waystones:warp_stone"})
 
 })
 

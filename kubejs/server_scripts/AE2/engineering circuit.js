@@ -24,7 +24,7 @@ ServerEvents.recipes((Catalyst) => {
                 Catalyst.recipes.createDeploying("createappliedkinetics:incomplete_printed_engineering_circuit", [
                     "createappliedkinetics:incomplete_printed_engineering_circuitr",
                     "ae2:engineering_processor_press",
-                ]), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
+                ]).keepHeldItem() // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
 
             ]
         )
