@@ -10,8 +10,8 @@ ServerEvents.recipes((event) => {
          "ABA"],
         {
             A: "kubejs:ground_amethyst_shards",
-            B: "minecraft:glowstone_dust",
-            C: "eternalores:gem_ruby",
+            B: "waystones:warp_dust",
+            C: "eternalores:gem_necroticarite",
         }
     ).id("warp_stone");
         event.recipes.create.finalize()
