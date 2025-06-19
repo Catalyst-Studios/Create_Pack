@@ -46,6 +46,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "waystones:black_sharestone"})
     catalyst.remove({output: "waystones:warp_plate"})
     catalyst.remove({output: "waystones:dormant_shard"})
+    catalyst.remove*{output: "immersive_aircraft:hull"}
 })
 
 //Stuff that has new recipies
@@ -72,6 +73,9 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "waystones:blackstone_waystone"})
     catalyst.remove({output: "waystones:end_stone_waystone"})
     catalyst.remove({id: "waystones:mossy_waystone"})
+    catalyst.remove({output: "immersive_aircraft:biplane"})
+    catalyst.remove({output: "immersive_aircraft:warship"})
+    catalyst.remove({output: "immersive_aircraft:engine"})
 
 })
 
