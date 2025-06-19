@@ -2,8 +2,12 @@
   "mod_priorities": [
     "minecraft",
     "kubejs",
+    "eternalores",
     "create",
-    "mekanism"
+    "mekanism",
+    "oritech",
+    "powah",
+    "mysticalagradditions"
   ],
   "priority_overrides": {},
   "stone_variants": [
