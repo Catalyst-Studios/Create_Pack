@@ -9,13 +9,12 @@ catalyst.shaped(
 
     Item.of('sophisticatedbackpacks:iron_backpack', 1),
     [
-        'ABA',
+        'AAA',
         'ACA',
         'AAA'
     ],
     {
-        A: 'create:iron_sheet',
-        B: 'create:precision_mechanism',
+        A: 'eternalores:plate_iron',
         C: 'sophisticatedbackpacks:backpack'
     }
 )
@@ -26,13 +25,12 @@ catalyst.shaped(
 
     Item.of('sophisticatedbackpacks:gold_backpack', 1),
     [
-        'ABA',
+        'AAA',
         'ACA',
         'AAA'
     ],
     {
-        A: 'create:golden_sheet',
-        B: 'create:precision_mechanism',
+        A: 'eternalores:plate_gold',
         C: 'sophisticatedbackpacks:iron_backpack'
     }
 )
@@ -43,13 +41,12 @@ catalyst.shaped(
 
     Item.of('sophisticatedbackpacks:diamond_backpack', 1),
     [
-        'ABA',
+        'AAA',
         'ACA',
         'AAA'
     ],
     {
-        A: 'kubejs:diamond_sheet',
-        B: 'create:precision_mechanism',
+        A: 'eternalores:plate_diamond',
         C: 'sophisticatedbackpacks:gold_backpack'
     }
 )
@@ -60,7 +57,7 @@ catalyst.smithing(
     'sophisticatedbackpacks:netherite_backpack',
     'minecraft:netherite_upgrade_smithing_template',
     'sophisticatedbackpacks:diamond_backpack',
-    'kubejs:netherite_sheet'
+    'eternalores:plate_netherite'
     
 )
 })
