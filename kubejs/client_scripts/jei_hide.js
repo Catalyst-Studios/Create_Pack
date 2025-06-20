@@ -40,4 +40,6 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove('waystones:black_portstone')
     catalyst.remove('waystones:warp_plate')
     catalyst.remove('waystones:dormant_shard')
+    catalyst.remove('immersive_aircraft:hull')
+    catalyst.remove("immersive_aircraft:hull_reinforcement")
 })
