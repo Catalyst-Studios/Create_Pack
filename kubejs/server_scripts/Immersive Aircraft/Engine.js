@@ -6,13 +6,14 @@ ServerEvents.recipes((catalyst) => {
         "immersive_aircraft:engine",
         ["AAAAA",
          "ABCBA",
-         "ABCBA",
+         "ABDBA",
          "AAAAA" 
         ],
         {
-            A: "#c:ingots/steel",
+            A: "eternalores:plate_steel",
             B: "immersive_aircraft:sturdy_pipes",
             C: "ironfurnaces:iron_furnace",
+            D: "oritech:still_oil_bucket"
         }
     ).id("engine");
 
