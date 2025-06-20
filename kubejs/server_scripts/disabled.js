@@ -4,7 +4,7 @@ It cannot be used or modified outside of Catalyst Studios without explicit permi
 */
 //Stuff removed from game
 ServerEvents.recipes(catalyst => {
-    catalyst.remove('ae2:network/blocks/spatial_anchor')
+    catalyst.remove({output: "ae2:spatial_anchor"})
     catalyst.remove('reliquary:alkahestry_tome')
     catalyst.remove('mekanism:dimensional_stabilizer')
     catalyst.remove('mekanism:upgrade_anchor')
@@ -46,7 +46,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "waystones:black_sharestone"})
     catalyst.remove({output: "waystones:warp_plate"})
     catalyst.remove({output: "waystones:dormant_shard"})
-    catalyst.remove*{output: "immersive_aircraft:hull"}
+    catalyst.remove({output: "immersive_aircraft:hull"})
 })
 
 //Stuff that has new recipies
@@ -75,7 +75,19 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({id: "waystones:mossy_waystone"})
     catalyst.remove({output: "immersive_aircraft:biplane"})
     catalyst.remove({output: "immersive_aircraft:warship"})
+    catalyst.remove({output: "immersive_aircraft:airship"})
+    catalyst.remove({output: "immersive_aircraft:cargo_airship"})
+    catalyst.remove({output:"immersive_aircraft:gyrodyne"})
+    catalyst.remove({output:"immersive_aircraft:quadrocopter"})
     catalyst.remove({output: "immersive_aircraft:engine"})
+    catalyst.remove({output: "ironfurnaces:copper_furnace"})
+    catalyst.remove({output: "ironfurnaces:silver_furnace"})
+    catalyst.remove({output: "ironfurnaces:iron_furnace"})
+    catalyst.remove({output: "ironfurnaces:gold_furnace"})
+    catalyst.remove({output: "ironfurnaces:diamond_furnace"})
+    catalyst.remove({output: "ironfurnaces:emerald_furnace"})
+    catalyst.remove({output: "ironfurnaces:obsidian_furnace"})
+    catalyst.remove({output: "ironfurnaces:netherite_furnace"})
 
 })
 
