@@ -2,6 +2,8 @@
 This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
+
+let $ClientCommandRegistrationEvent$ClientCommandSourceStack = Java.loadClass("dev.architectury.event.events.client.ClientCommandRegistrationEvent$ClientCommandSourceStack")
 //Stuff removed from game
 ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ae2:spatial_anchor"})
@@ -47,6 +49,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "waystones:warp_plate"})
     catalyst.remove({output: "waystones:dormant_shard"})
     catalyst.remove({output: "immersive_aircraft:hull"})
+    catalyst.remove({output: "immersive_aircraft:hull_reinforcement"})
 })
 
 //Stuff that has new recipies
@@ -88,6 +91,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ironfurnaces:emerald_furnace"})
     catalyst.remove({output: "ironfurnaces:obsidian_furnace"})
     catalyst.remove({output: "ironfurnaces:netherite_furnace"})
+    
 
 })
 
