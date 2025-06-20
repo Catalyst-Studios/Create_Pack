@@ -42,6 +42,7 @@ ServerEvents.recipes(event => {
   removePlateRecipe('uranium');
   removePlateRecipe('wrought_iron');
   removePlateRecipe('zinc');
+  removePlateRecipe('diamond')
     
 
 
@@ -89,6 +90,7 @@ pressing ("eternalores:plate_titanium","eternalores:titanium_ingot");
 pressing ("eternalores:plate_ultimatitanium","eternalores:ultimatitanium_ingot");
 pressing ("eternalores:plate_uranium","eternalores:uranium_ingot");
 pressing ("eternalores:plate_wrought_iron","eternalores:wrought_iron_ingot");
+pressing ("eternalores:plate_diamond", "minecraft:diamond")
 
 }); 
 
