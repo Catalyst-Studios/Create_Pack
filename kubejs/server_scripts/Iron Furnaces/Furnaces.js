@@ -60,7 +60,7 @@ catalyst.shaped(
         'AAA'
     ],
     {
-        A: 'kubejs:diamond_sheet',
+        A: 'eternalores:plate_diamond',
         B: 'ironfurnaces:gold_furnace',
     }
 )
