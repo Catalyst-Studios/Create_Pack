@@ -94,7 +94,16 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ironfurnaces:netherite_furnace"})
     catalyst.remove({output: "eternalores:shadowsteel_dust"})
     catalyst.remove({output: "tiab:time_in_a_bottle"})
-    
+    catalyst.remove({output: "sophisticatedstorage:copper_chest"})
+    catalyst.remove({output: "sophisticatedstorage:iron_chest"})
+    catalyst.remove({output: "sophisticatedstorage:gold_chest"})
+    catalyst.remove({output: "sophisticatedstorage:diamond_chest"})
+    catalyst.remove({output: "sophisticatedstorage:netherite_chest"})
+    catalyst.remove({output: "sophisticatedstorage:copper_barrel"})
+    catalyst.remove({output: "sophisticatedstorage:iron_barrel"})
+    catalyst.remove({output: "sophisticatedstorage:gold_barrel"})
+    catalyst.remove({output: "sophisticatedstorage:diamond_barrel"})
+    catalyst.remove({output: "sophisticatedstorage:netherite_barrel"})         
 
 })
 
