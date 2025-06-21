@@ -1,3 +1,4 @@
+
 ServerEvents.recipes((catalyst) => {
     // THIS LINE IS IMPORTANT!
     // IT MUST BE THE FIRST LINE IN THE EVENT HANDLER
