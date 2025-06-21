@@ -1,7 +1,7 @@
-<h1 align="center">Create Pack</h1> 
+<h1 align="center">Create: Catalyst</h1> 
 
 <p align="center">
-  <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, Create Pack!</i>
+  <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, Create: Catalyst!</i>
 </p>
 
 <h3 align="center">
@@ -29,6 +29,6 @@ By committing to this repository you hereby forfeit your rights to the code you 
 
 This project is All Rights Reserved unless explicitly stated per comment in said file, or codeblock. We highly appreciate any contributions. We would love to have you as a part of the Catalyst community!
 
-- Bug Report: If you encounter any issues while playing Little Bit Large, please create a [bug report](https://github.com/Catalyst-Studios/Little-Bit-Large/issues/new).
+- Bug Report: If you encounter any issues while playing Create: Catalyst, please create a [bug report](https://github.com/Catalyst-Studios/Create_Pack/issues/new).
 
 Not sure where to start? [Join our Discord](https://discord.gg/YCHPXeW9GZ) and we will help you get started!
