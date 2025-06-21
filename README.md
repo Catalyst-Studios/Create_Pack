@@ -1,20 +1,20 @@
 <h1 align="center">Create Pack</h1> 
 
 <p align="center">
-  <i>Welcome to the Catalyst Studios GitHub. This repo is for our flagship pack, Create Pack!</i>
+  <i>Welcome to the Catalyst Studios GitHub. This repo is for our pack, Create Pack!</i>
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/Catalyst-Studios/catalystguides/pulls">
+  <!--<a href="https://github.com/Catalyst-Studios/catalystguides/pulls">
     <img src="https://img.shields.io/github/issues-pr/Catalyst-Studios/Little-Bit-Large.svg">
-  </a>
-  <a href="https://github.com/Catalyst-Studios/catalystguides/issues">
-    <img src="https://img.shields.io/github/issues/Catalyst-Studios/Little-Bit-Large.svg">
+  </a>-->
+  <a href="https://github.com/Catalyst-Studios/Create_Pack/issues">
+    <img src="https://img.shields.io/github/issues/Catalyst-Studios/Create_Pack.svg">
   </a>
 </br>
-  <a href="https://legacy.curseforge.com/minecraft/modpacks/little-bit-large">
+  <!--<a href="https://legacy.curseforge.com/minecraft/modpacks/little-bit-large">
     <img src="https://cf.way2muchnoise.eu/author/CatalystStudios.svg">
-  </a>
+  </a>-->
   <a href="https://discord.gg/YCHPXeW9GZ">
     <img src="https://img.shields.io/discord/1131757660253995029?label=Discord&color=5865F2">
   </a>
