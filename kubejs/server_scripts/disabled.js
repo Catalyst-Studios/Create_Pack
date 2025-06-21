@@ -50,6 +50,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "waystones:dormant_shard"})
     catalyst.remove({output: "immersive_aircraft:hull"})
     catalyst.remove({output: "immersive_aircraft:hull_reinforcement"})
+    catalyst.remove({output: "/ironfurnaces:upgrade/"})
 })
 
 //Stuff that has new recipies
@@ -91,6 +92,8 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "ironfurnaces:emerald_furnace"})
     catalyst.remove({output: "ironfurnaces:obsidian_furnace"})
     catalyst.remove({output: "ironfurnaces:netherite_furnace"})
+    catalyst.remove({output: "eternalores:shadowsteel_dust"})
+    catalyst.remove({output: "tiab:time_in_a_bottle"})
     
 
 })
