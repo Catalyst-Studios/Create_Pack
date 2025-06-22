@@ -91,6 +91,7 @@ pressing ("eternalores:plate_ultimatitanium","eternalores:ultimatitanium_ingot")
 pressing ("eternalores:plate_uranium","eternalores:uranium_ingot");
 pressing ("eternalores:plate_wrought_iron","eternalores:wrought_iron_ingot");
 pressing ("eternalores:plate_diamond", "minecraft:diamond")
+pressing ("kubejs:plate_wood", "minecraft:oak_planks")
 
 }); 
 
