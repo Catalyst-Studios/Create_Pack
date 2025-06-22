@@ -1,5 +1,5 @@
 /* 
-This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+This script is property of Catalyst Studios for use in the Catalyst: Create. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */
 
@@ -103,11 +103,34 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "sophisticatedstorage:iron_barrel"})
     catalyst.remove({output: "sophisticatedstorage:gold_barrel"})
     catalyst.remove({output: "sophisticatedstorage:diamond_barrel"})
-    catalyst.remove({output: "sophisticatedstorage:netherite_barrel"})         
+    catalyst.remove({output: "sophisticatedstorage:netherite_barrel"})    
+    catalyst.remove({output: "sophisticatedstorage:basic_tier_upgrade"})       
+    catalyst.remove({output: "sophisticatedstorage:basic_to_copper_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:basic_to_iron_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:basic_to_gold_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:basic_to_diamond_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:basic_to_netherite_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:copper_to_iron_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:copper_to_gold_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:copper_to_diamond_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:copper_to_netherite_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:iron_to_gold_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:iron_to_diamond_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:iron_to_netherite_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:gold_to_diamond_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:gold_to_netherite_tier_upgrade"})
+    catalyst.remove({output: "sophisticatedstorage:diamond_to_netherite_tier_upgrade"})
+    catalyst.remove({id: "toolbelt:belt"})
+    catalyst.remove({id: "toolbelt:pouch"})
+    catalyst.remove({output: "simplemagnets:advancedmagnet"})
+    catalyst.remove({output: "simplemagnets:basicmagnet"})
+    catalyst.remove({output: "simplemagnets:basic_demagnetization_coil"})
+    catalyst.remove({output: "simplemagnets:advanced_demagnetization_coil"})
+    catalyst.remove({output: "structurecompass:structure_compass"})
 
-})
+    })
 
 /* 
-This script is property of Catalyst Studios for use in the modpack Little Bit Large. It is under the All Rights Reserved license.
+This script is property of Catalyst Studios for use in the Catalyst: Create. It is under the All Rights Reserved license.
 It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
 */

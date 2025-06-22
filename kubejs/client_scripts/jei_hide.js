@@ -1,3 +1,7 @@
+/* 
+This script is property of Catalyst Studios for use in the Catalyst: Create. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
 RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove('mekanism:dimensional_stabilizer')
     catalyst.remove('mekanism:upgrade_anchor')
@@ -42,4 +46,9 @@ RecipeViewerEvents.removeEntries('item', catalyst => {
     catalyst.remove('waystones:dormant_shard')
     catalyst.remove('immersive_aircraft:hull')
     catalyst.remove("immersive_aircraft:hull_reinforcement")
+    catalyst.remove('/ironfurnaces:upgrade/')
 })
+/* 
+This script is property of Catalyst Studios for use in the Catalyst: Create. It is under the All Rights Reserved license.
+It cannot be used or modified outside of Catalyst Studios without explicit permission from Catalyst Studios.
+*/
