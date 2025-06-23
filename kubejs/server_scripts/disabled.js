@@ -128,6 +128,8 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "simplemagnets:advanced_demagnetization_coil"})
     catalyst.remove({output: "structurecompass:structure_compass"})
     catalyst.remove({output: "naturescompass:naturescompass"})
+    catalyst.remove({output: "enderstorage:ender_chest"})
+    catalyst.remove({output: "enderstorage:ender_tank"})
 
     })
 
