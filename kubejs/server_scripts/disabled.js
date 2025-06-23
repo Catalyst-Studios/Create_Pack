@@ -127,6 +127,7 @@ ServerEvents.recipes(catalyst => {
     catalyst.remove({output: "simplemagnets:basic_demagnetization_coil"})
     catalyst.remove({output: "simplemagnets:advanced_demagnetization_coil"})
     catalyst.remove({output: "structurecompass:structure_compass"})
+    catalyst.remove({output: "naturescompass:naturescompass"})
 
     })
 
