@@ -16,19 +16,19 @@ ServerEvents.recipes((Catalyst) => {
             [
                 // 'create:brass_ingot' is the input.
                 // the transitional item set by "transitionalItem('create:large_cogwheel')" is the item that will be used during the recipe as the item that the input is using to transition to the output.
-                Catalyst.recipes.createDeploying("createappliedkinetics:incomplete_logic_processor", [
-                    "createappliedkinetics:incomplete_logic_processor",
+                Catalyst.recipes.createDeploying("catalyst_create_core:inactive_logic_processor", [
+                    "catalyst_create_core:inactive_logic_processor",
                     "minecraft:redstone",
                 ]), // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-                Catalyst.recipes.createDeploying("createappliedkinetics:incomplete_logic_processor", [
-                    "createappliedkinetics:incomplete_logic_processor",
+                Catalyst.recipes.createDeploying("catalyst_create_core:inactive_logic_processor", [
+                    "catalyst_create_core:inactive_logic_processor",
                     "ae2:printed_silicon",
                 ]), 
-                Catalyst.recipes.createPressing("createappliedkinetics:incomplete_logic_processor",
-                                                "createappliedkinetics:incomplete_logic_processor")                  
+                Catalyst.recipes.createPressing("catalyst_create_core:inactive_logic_processor",
+                                                "catalyst_create_core:inactive_logic_processor")                  
             ]
         )
-        .transitionalItem("createappliedkinetics:incomplete_logic_processor")
+        .transitionalItem("catalyst_create_core:inactive_logic_processor")
         .loops(1); // set the transitional item and the loops (amount of repetitions)
     // THIS LINE IS ALSO IMPORTANT!
     // IT MUST BE THE LAST LINE IN THE EVENT HANDLER

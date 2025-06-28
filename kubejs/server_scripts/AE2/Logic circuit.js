@@ -18,17 +18,17 @@ ServerEvents.recipes((Catalyst) => {
                 // 'create:brass_ingot' is the input.
                 // the transitional item set by "transitionalItem('create:large_cogwheel')" is the item that will be used during the recipe as the item that the input is using to transition to the output.
                 Catalyst.recipes
-                    .createCutting("createappliedkinetics:incomplete_printed_logic_circuit", "createappliedkinetics:incomplete_printed_logic_circuit")
+                    .createCutting("catalyst_create_core:inactive_printed_logic_circuit", "catalyst_create_core:inactive_printed_logic_circuit")
                     .processingTime(50), 
 
-                Catalyst.recipes.createDeploying("createappliedkinetics:incomplete_printed_logic_circuit", [
-                    "createappliedkinetics:incomplete_printed_logic_circuit",
+                Catalyst.recipes.createDeploying("catalyst_create_core:inactive_printed_logic_circuit", [
+                    "catalyst_create_core:inactive_printed_logic_circuit",
                     "ae2:logic_processor_press",
                 ]).keepHeldItem() // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
 
             ]
         )
-        .transitionalItem("createappliedkinetics:incomplete_printed_logic_circuit")
+        .transitionalItem("catalyst_create_core:inactive_printed_logic_circuit")
         .loops(1); // set the transitional item and the loops (amount of repetitions)
 
     // THIS LINE IS ALSO IMPORTANT!
