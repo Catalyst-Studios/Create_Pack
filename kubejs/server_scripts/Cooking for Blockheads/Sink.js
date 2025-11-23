@@ -9,9 +9,9 @@ catalyst.recipes.createMechanicalCrafting(
         "BCB", 
         "BBB"],
         {
-            a: "#c:ingots/iron",
-            P: "#minecraft:terracotta",
-            R: "minecraft:water_bucket",
+            A: "eternalores:plate_iron",
+            B: "minecraft:terracotta",
+            C: "minecraft:water_bucket",
         }
     ).id("sink");
         catalyst.recipes.create.finalize();
